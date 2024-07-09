@@ -7,4 +7,6 @@ int main(){
     cout<<t<<endl;
     t = 5521;
     cout<<t<<endl;
+    t = t + 5521;
+    cout<<t<<endl;
     }
