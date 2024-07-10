@@ -282,5 +282,5 @@ int main(){
     // else {
     //     cout<<"The point lies on origin";
     // }
-    
+    //
 }
