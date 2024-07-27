@@ -47,5 +47,50 @@ int main(){
     // }
     // cout<<"product of the array is: "<<sum;
 
+    // // 4th
+    // int a=3, arr[a];
+    // int sum=1;
+    // for(int i=0; i<(sizeof(arr)/4); i++){
+    //     cout<<" Enter array digits: ";
+    //     cin>>arr[i];
+    //     cout<<endl;
+    // }
+    // cout<<endl;
+    // for(int j=0; j<(sizeof(arr)/4); j++){
+    //     cout<<arr[j]<<" ";
+    // }
+    // cout<<endl;
+    // int mx = arr[0];
+    // int mx = INT_MAX;
+    // for(int k=1; k<(sizeof(arr)/4); k++){
+        // if(mx<arr[k]){
+        //     mx = arr[k];
+        // }
+       // //  mx = max(mx,arr[k]);
+    // }
+    // cout<<"maxx in the array is: "<<mx;
+ 
+    // // 5th
+    // int a=3, arr[a];
+    // int sum=1;
+    // for(int i=0; i<(sizeof(arr)/4); i++){
+    //     cout<<" Enter array digits: ";
+    //     cin>>arr[i];
+    //     cout<<endl;
+    // }
+    // cout<<endl;
+    // for(int j=0; j<(sizeof(arr)/4); j++){
+    //     cout<<arr[j]<<" ";
+    // }
+    // cout<<endl;
+    // int mn = arr[0];
+    // // int mn = INT_MIN;
+    // for(int k=1; k<(sizeof(arr)/4); k++){
+    //     if(mn>arr[k]){
+    //         mn = arr[k];
+    //     }
+    //      // mn = min(mn,arr[k]);
+    // }
+    // cout<<"min in the array is: "<<mn;
 
 }
