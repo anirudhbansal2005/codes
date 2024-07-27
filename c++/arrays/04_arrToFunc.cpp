@@ -16,6 +16,6 @@ int main(){
     cout<<endl;
     change(arr);
     for(int j=0; j<3; j++){
-       cout<<arr[j]<<" ";
+       cout<<arr[j]<<" "; // by refrence
     } 
 }
