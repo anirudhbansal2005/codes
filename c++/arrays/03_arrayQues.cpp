@@ -92,5 +92,113 @@ int main(){
     //      // mn = min(mn,arr[k]);
     // }
     // cout<<"min in the array is: "<<mn;
+ 
+    // // 6th
+    // int inp;
+    // cout<<" Enter the number you want to sqaure upto: ";
+    // cin>>inp;
+    // int arr[inp];
+    // for(int i=0; i<=inp; i++){
+    //     arr[i] = i;
+    //     }
+    // for(int j=0; j<=inp; j++){
+    //     cout<<arr[j]<<" ";
+    // }
+    // for(int k=0; k<=inp; k++){
+    //     arr[k] = k*k; // sqauring
+    // }
+    // cout<<endl;
+    // for(int j=0; j<=inp; j++){
+    //     cout<<arr[j]<<" ";
+    // }
+
+    // // 7th
+    // int l;
+    // cout<<"Enter length of array: ";
+    // cin>>l;
+    // int arr[l];
+    // cout<<" Enter the digits of array: ";
+    // for(int i; i<l; i++){
+    //     cin>>arr[i];
+    // }
+    // for(int j=0; j<l; j++){
+    //     cout<<arr[j]<<" ";
+    // }
+    // for(int j=1; j<l; j+=2){
+    //     arr[j] = arr[j]*2;
+    // }
+    // for( int k=0; k<l; k+=2){
+    //     arr[k] = arr[k]+10;
+    // }
+    // cout<<endl;
+    // for(int j=0; j<l; j++){
+    //    cout<<arr[j]<<" ";
+    // } 
+
+    // // 8th
+    // int l,x=6;
+    // cout<<"Enter length of array: ";
+    // cin>>l;
+    // int arr[l];
+    // cout<<" Enter the digits of array: ";
+    // for(int i; i<l; i++){
+    //     cin>>arr[i];
+    // }
+    // for(int j=0; j<l; j++){
+    //    cout<<arr[j]<<" ";
+    // } 
+    // int greater=0;
+    // for(int j=0; j<l; j++){
+    //     if(x<arr[j]){
+    //         greater++;
+    //     }
+    // }
+    // cout<<endl<<"Number of digits greater than "<<x<<" are: "<<greater;  
+
+
+    // // 9th
+    // int l,x=6;
+    // cout<<"Enter length of array: ";
+    // cin>>l;
+    // int arr[l];
+    // cout<<" Enter the digits of array: ";
+    // for(int i; i<l; i++){
+    //     cin>>arr[i];
+    // }
+    // for(int j=0; j<l; j++){
+    //    cout<<arr[j]<<" ";
+    // }
+    // int sumeven=0, sumodd=0, diff; 
+    // for(int i=0; i<l; i+=2){
+    //     sumeven+= arr[i];
+    // }
+    // for(int i=1; i<l; i+=2){
+    //     sumodd+= arr[i];
+    // }
+    // diff = sumeven-sumodd;
+    // cout<<endl<<"sum at even is: "<<sumeven<<endl<<"sum at odd is: "<<sumodd<<endl<<"Diff is: "<<diff;
+
+    // // 10th
+    // int l,mx=INT_MIN;
+    // cout<<"Enter length of array: ";
+    // cin>>l;
+    // int arr[l];
+    // int smx=INT_MIN;
+    // cout<<" Enter the digits of array: ";
+    // for(int i; i<l; i++){
+    //     cin>>arr[i];
+    // }
+    // for(int j=0; j<l; j++){
+    //    cout<<arr[j]<<" ";
+    // }
+    // for(int k=0; k<l; k++){
+    //     mx = max(mx, arr[k]);
+    // }
+    // for(int k=0; k<l; k++){
+    //     if(arr[k]!=mx){
+    //         smx = max(smx,arr[k]);
+    //     }
+    // }
+    // cout<<endl<<"First max is: "<<mx<<endl<<"Second max is: "<<smx;
 
 }
