@@ -201,4 +201,59 @@ int main(){
     // }
     // cout<<endl<<"First max is: "<<mx<<endl<<"Second max is: "<<smx;
 
+    // // 11th
+    // int l;
+    // cout<<"Enter the length of the array: ";
+    // cin>>l;
+    // int arr[l];
+    // for(int i=0; i<l; i++){
+    //     cin>>arr[i];
+    // }
+    // cout<<endl;
+    // for(int i=0; i<l; i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    // int lenn = (sizeof(arr)/4);
+    // int arr2[lenn];
+    // int cop;
+    // for(int k=0; k<lenn; k++){
+    //     cop = lenn-1-k;
+    //     arr2[k] = arr[cop]; // reversing
+    // }
+    // cout<<endl;
+    // for(int k=0; k<lenn; k++){
+    //     cout<<arr2[k]<<" ";
+    // } 
+
+    // 12th
+    int l;
+    cout<<"Enter the length of the array: ";
+    cin>>l;
+    int arr[l];
+    for(int i=0; i<l; i++){
+        cin>>arr[i];
+    }
+    cout<<endl;
+    for(int i=0; i<l; i++){
+        cout<<arr[i]<<" ";
+    }
+    int lenn = (sizeof(arr)/4);
+    int cop=0;
+    int rev = lenn-1;
+    int temp;
+    for(int k=0; k<lenn; k++){
+        temp = arr[cop];
+        arr[cop] = arr[rev]; // reversing
+        arr[rev] = temp;
+        rev--;
+        cop++;
+        cout<<rev<<" ";
+    }
+    cout<<endl;
+    for(int k=lenn-1; k>=0; k--){
+        cout<<arr[k]<<" ";
+    } 
+
+
+
 }
