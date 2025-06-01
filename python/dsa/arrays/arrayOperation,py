@@ -1,0 +1,32 @@
+def traverse(arr, size):
+    for i in range(size):
+        print(f"{arr[i]} ")
+
+def indexInsertion(arr, size, cap, element, index):
+    if(index>=cap):
+        print("Error!")
+        return
+    else:
+        arr.append(0)
+        for i in range(size-1, index-1, -1):
+            arr[i+1] = arr[i]
+        arr[index] = element
+        
+def indexDeletion(arr, size, cap, index):
+    if(index>=cap):
+        print("Error!")
+        return
+    else:
+        for i in range(index, size-1):
+            arr[i] = arr[i+1]
+        arr.pop()
+      
+arr = [1, 2, 34, 5]
+size = 4
+traverse(arr, size)
+indexInsertion(arr, size, 100, 4, 1)
+size +=1
+traverse(arr, size)
+indexDeletion(arr, size, 100, 3)
+size -=1
+traverse(arr, size)
