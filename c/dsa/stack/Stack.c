@@ -51,6 +51,16 @@ int stackPeek(struct Stack * ptr, int i){
         return ptr->arr[ptr->top-i+1];
     }
 }
+
+int stackTop(struct Stack * ptr){
+    return ptr->arr[ptr->top];
+}
+int stackBottom(struct Stack * ptr){
+    if(isEmpty(ptr)){
+        return -1;
+    } 
+    return ptr->arr[0];
+}
 int main(){
     struct Stack *s = (struct Stack *)malloc(sizeof(struct Stack));
     s->size = 5;
